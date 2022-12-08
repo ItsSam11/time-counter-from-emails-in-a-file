@@ -2,7 +2,7 @@ def filee():
     name = input("Enter file:")
     if len(name) < 1:
         name = "mbox-short.txt"
-        handle = open(name)
+    handle = open(name)
     return handle
 
 def main():
